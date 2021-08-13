@@ -20,7 +20,6 @@ int main(){
         {
             if(i==0 || j==0) t[i][j] = 0;
         }
-        
     }
 
     //bottom-up filling (based on choice diagram)

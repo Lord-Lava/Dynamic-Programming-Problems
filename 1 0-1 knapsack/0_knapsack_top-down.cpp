@@ -3,7 +3,7 @@
 
 using namespace std;
 
-static int t[102][1002];    //dp table-> size as per the constraints 
+int t[102][1002];    //dp table-> size as per the constraints 
 
 int knapsack(int wt[],int val[],int w,int n){
     if(n==0 || w==0){ //base case
