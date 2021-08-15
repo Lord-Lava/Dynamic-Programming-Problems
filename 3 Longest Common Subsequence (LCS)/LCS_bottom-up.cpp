@@ -20,7 +20,7 @@ int LCS(string x,string y,int n,int m){
     {
         for (int j = 1; j < m+1; j++)
         {
-            if(x[i-1] == y[i-1]){
+            if(x[i-1] == y[j-1]){
                 t[i][j] = 1 + t[i-1][j-1];
             }
             else{
