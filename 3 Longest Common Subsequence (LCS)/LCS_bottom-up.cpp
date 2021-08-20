@@ -24,7 +24,7 @@ int LCS(string x,string y,int n,int m){
                 t[i][j] = 1 + t[i-1][j-1];
             }
             else{
-                t[i][j] = max(t[i][j-1] , t[i-1][j-1]);
+                t[i][j] = max(t[i][j-1] , t[i-1][j]);
             }   
         }
     }
