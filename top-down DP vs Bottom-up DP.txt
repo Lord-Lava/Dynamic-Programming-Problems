@@ -1,0 +1,6 @@
+It has a same order complexity as tabulation (if tabulation is order of n it will be too, maybe slower by a constant factor) and NO, its not always slower, it really depends upon the problems, on how it gonna be as compared to tabulation. It might be slower (often this is the case) and it can be faster too (this can happen too). All that depends upon the number of sub-problems and how they are distibuted in the recurisve tree.
+If all subproblems must be solved at least once, a bottom-up dynamic-programming algorithm usually outperforms a top-down memoized algorithm by a constant factor
+No overhead for recursion and less overhead for maintaining table
+There are some problems for which the regular pattern of table accesses in the dynamic-programming algorithm can be exploited to reduce the time or space requirements even further
+If some subproblems in the subproblem space need not be solved at all, the memoized solution has the advantage of solving only those subproblems that are definitely required.
+Hope thats clears your doubt.
